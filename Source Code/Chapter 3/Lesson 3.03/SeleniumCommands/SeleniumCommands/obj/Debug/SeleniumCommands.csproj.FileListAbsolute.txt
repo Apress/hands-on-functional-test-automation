@@ -1,0 +1,38 @@
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\SeleniumCommands.dll
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\SeleniumCommands.pdb
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\SeleniumExtras.WaitHelpers.dll
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\WebDriver.dll
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\WebDriver.Support.dll
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\WebDriver.xml
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\bin\Debug\WebDriver.Support.xml
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\obj\Debug\SeleniumCommands.csprojAssemblyReference.cache
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\obj\Debug\SeleniumCommands.csproj.CoreCompileInputs.cache
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\obj\Debug\SeleniumCommands.csproj.CopyComplete
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\obj\Debug\SeleniumCommands.dll
+F:\Selenium-C#\SeleniumCommands\SeleniumCommands\obj\Debug\SeleniumCommands.pdb
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\SeleniumCommands.dll
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\SeleniumCommands.pdb
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\SeleniumExtras.WaitHelpers.dll
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\WebDriver.dll
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\WebDriver.Support.dll
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\WebDriver.xml
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\bin\Debug\WebDriver.Support.xml
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\obj\Debug\SeleniumCommands.csprojAssemblyReference.cache
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\obj\Debug\SeleniumCommands.csproj.CoreCompileInputs.cache
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\obj\Debug\SeleniumCommands.csproj.CopyComplete
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\obj\Debug\SeleniumCommands.dll
+F:\Book Project\GitHub\Book-Test-Autmation-VS\Chapter 3\Lesson 3.03\SeleniumCommands\SeleniumCommands\obj\Debug\SeleniumCommands.pdb

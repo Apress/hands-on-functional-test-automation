@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="a877eddb-1a33-41f2-b7b3-73a6a807fd33" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.dcfb4a84-2425-47e1-98bc-7734aaf6cf9c.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="9d26cb8c-a26b-4532-ad1b-30d7307eaa49" Version="1.1" Url="http://eshop-testweb.azurewebsites.net/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="a83beac8-1fb0-435e-9b44-7771100975a7" Version="1.1" Url="http://eshop-testweb.azurewebsites.net/fonts/Montserrat-Regular.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://eshop-testweb.azurewebsites.net/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="edaeffec-4bb1-424c-abce-4978470f2edb" Version="1.1" Url="http://eshop-testweb.azurewebsites.net/fonts/Montserrat-Bold.woff" ThinkTime="7" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://eshop-testweb.azurewebsites.net/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="320d61a0-ce6c-440f-b2a9-fa6deba4c44d" Version="1.1" Url="http://eshop-testweb.azurewebsites.net/Account/SignIn" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://eshop-testweb.azurewebsites.net/" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="dd5533dd-3f12-4ac2-9d2a-60393cd79570" Version="1.1" Url="http://eshop-testweb.azurewebsites.net/fonts/Montserrat-Regular.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://eshop-testweb.azurewebsites.net/Account/SignIn" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="c5e74a51-e282-4bf5-a5e7-c14a47e59e3e" Version="1.1" Url="http://eshop-testweb.azurewebsites.net/fonts/Montserrat-Bold.woff" ThinkTime="23" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://eshop-testweb.azurewebsites.net/Account/SignIn" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="8f6c85d2-e093-4af0-b451-d9a359f58118" Version="1.1" Url="http://eshop-testweb.azurewebsites.net/Account/SignIn" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://eshop-testweb.azurewebsites.net/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://eshop-testweb.azurewebsites.net/Account/SignIn" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="Email" Value="demouser@microsoft.com" RecordedValue="demouser@microsoft.com" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Password" Value="Pass@word1" RecordedValue="Pass@word1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__RequestVerificationToken" Value="{{$HIDDEN1.__RequestVerificationToken}}" RecordedValue="CfDJ8OsvjRXf04RGqHr4xYCDNknM7daxn5CAPJbZUhHI451u9mvmjndwumyTpDpC70rLX0331AyQ36c1xEktOxf8cB-x-U3O4VDcn1m8BQ7ArLcs9b7R1p_OcuzAFmTmxH51QzRV1bk3P5ZOc0rL27RirY0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="RememberMe" Value="{{$HIDDEN1.RememberMe}}" RecordedValue="false" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="016f4306-9785-4c9d-b109-1bada1b2febb" Version="1.1" Url="http://eshop-testweb.azurewebsites.net/fonts/Montserrat-Regular.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://eshop-testweb.azurewebsites.net/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="16e3b4cb-50a4-46ff-a6f1-7e74605ae30e" Version="1.1" Url="http://eshop-testweb.azurewebsites.net/fonts/Montserrat-Bold.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://eshop-testweb.azurewebsites.net/" />
+      </Headers>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

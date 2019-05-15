@@ -1,0 +1,94 @@
+
+2018-10-15 10:09:26.772
+INFORMATION:	Setup test object for Tests.TestClass.LoginToUserAccount
+
+2018-10-15 10:09:31.350
+INFORMATION:	Local driver: {
+  "acceptInsecureCerts": false,
+  "acceptSslCerts": false,
+  "applicationCacheEnabled": false,
+  "browserConnectionEnabled": false,
+  "browserName": "chrome",
+  "chrome": {
+    "chromedriverVersion": "2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5)",
+    "userDataDir": "C:\\Users\\PUSHPA~1.HER\\AppData\\Local\\Temp\\scoped_dir33316_17015"
+  },
+  "cssSelectorsEnabled": true,
+  "databaseEnabled": false,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:21976"
+  },
+  "handlesAlerts": true,
+  "hasTouchScreen": false,
+  "javascriptEnabled": true,
+  "locationContextEnabled": true,
+  "mobileEmulationEnabled": false,
+  "nativeEvents": true,
+  "networkConnectionEnabled": false,
+  "pageLoadStrategy": "normal",
+  "platform": "Windows NT",
+  "rotatable": false,
+  "setWindowRect": true,
+  "takesHeapSnapshot": true,
+  "takesScreenshot": true,
+  "unexpectedAlertBehaviour": "",
+  "version": "69.0.3497.100",
+  "webStorageEnabled": true
+}
+
+
+2018-10-15 10:09:35.781
+INFORMATION:	Navigated to: http://eshop-testweb.azurewebsites.net/
+
+2018-10-15 10:09:35.813
+INFORMATION:	Found element: By.LinkText: Login
+
+2018-10-15 10:09:35.845
+INFORMATION:	Element clicking: Element (id = 0.8456721100421187-1) Text:Login Location: X:1062 Y:10
+
+2018-10-15 10:09:36.436
+INFORMATION:	Found element: By.Id: Email
+
+2018-10-15 10:09:36.586
+INFORMATION:	Element value changed: demouser@microsoft.com
+
+2018-10-15 10:09:36.604
+INFORMATION:	Found element: By.Id: Password
+
+2018-10-15 10:09:36.703
+INFORMATION:	Element value changed: Pass@word1
+
+2018-10-15 10:09:36.721
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 10:09:36.781
+INFORMATION:	Element clicking: Element (id = 0.4559323548883012-3) Text: LOG IN  Location: X:405 Y:384
+
+2018-10-15 10:09:38.787
+INFORMATION:	Found element: By.LinkText: My orders
+
+2018-10-15 10:09:38.847
+INFORMATION:	Element clicking: Element (id = 0.8616129718847565-1) Text:My orders Location: X:1062 Y:32
+
+2018-10-15 10:09:40.280
+INFORMATION:	Found element: By.CssSelector: *
+
+2018-10-15 10:09:41.299
+INFORMATION:	Found element: By.CssSelector: *
+
+2018-10-15 10:09:41.322
+INFORMATION:	Found element: By.CssSelector: .container
+
+2018-10-15 10:09:41.390
+ERROR:	Assert.AreEqual failed. Expected:<True>. Actual:<False>. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual)
+   at PageModel.MyOrders.VerifyMyOrderPage() in E:\SelfStudies\BookWork\OnlineShopping\PageModel\MyOrders.cs:line 56
+   at Tests.TestClass.LoginToUserAccount() in E:\SelfStudies\BookWork\OnlineShopping\Tests\TestClass.cs:line 29
+
+2018-10-15 10:09:41.406
+ERROR:	Test failed
+
+2018-10-15 10:09:41.797
+INFORMATION:	Screenshot saved: E:\SelfStudies\BookWork\OnlineShopping\Tests\bin\Debug\Logs\Tests.TestClass.LoginToUserAccount - 2018-10-15-10-09-26-6966.Png

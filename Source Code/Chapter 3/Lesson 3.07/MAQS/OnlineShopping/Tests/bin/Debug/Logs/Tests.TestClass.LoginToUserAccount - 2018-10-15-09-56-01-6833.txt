@@ -1,0 +1,108 @@
+
+2018-10-15 09:56:01.763
+INFORMATION:	Setup test object for Tests.TestClass.LoginToUserAccount
+
+2018-10-15 09:56:09.442
+INFORMATION:	Local driver: {
+  "acceptInsecureCerts": false,
+  "acceptSslCerts": false,
+  "applicationCacheEnabled": false,
+  "browserConnectionEnabled": false,
+  "browserName": "chrome",
+  "chrome": {
+    "chromedriverVersion": "2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5)",
+    "userDataDir": "C:\\Users\\PUSHPA~1.HER\\AppData\\Local\\Temp\\scoped_dir14328_16007"
+  },
+  "cssSelectorsEnabled": true,
+  "databaseEnabled": false,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:19196"
+  },
+  "handlesAlerts": true,
+  "hasTouchScreen": false,
+  "javascriptEnabled": true,
+  "locationContextEnabled": true,
+  "mobileEmulationEnabled": false,
+  "nativeEvents": true,
+  "networkConnectionEnabled": false,
+  "pageLoadStrategy": "normal",
+  "platform": "Windows NT",
+  "rotatable": false,
+  "setWindowRect": true,
+  "takesHeapSnapshot": true,
+  "takesScreenshot": true,
+  "unexpectedAlertBehaviour": "",
+  "version": "69.0.3497.100",
+  "webStorageEnabled": true
+}
+
+
+2018-10-15 09:56:15.940
+INFORMATION:	Navigated to: http://eshop-testweb.azurewebsites.net/
+
+2018-10-15 09:56:15.968
+INFORMATION:	Found element: By.LinkText: Login
+
+2018-10-15 09:56:16.001
+INFORMATION:	Element clicking: Element (id = 0.6382245487559863-1) Text:Login Location: X:1062 Y:10
+
+2018-10-15 09:56:16.642
+INFORMATION:	Found element: By.Id: Email
+
+2018-10-15 09:56:16.816
+INFORMATION:	Element value changed: demouser@microsoft.com
+
+2018-10-15 09:56:16.835
+INFORMATION:	Found element: By.Id: Password
+
+2018-10-15 09:56:16.945
+INFORMATION:	Element value changed: Pass@word1 
+
+2018-10-15 09:56:16.962
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 09:56:17.019
+INFORMATION:	Element clicking: Element (id = 0.649107197492437-3) Text: LOG IN  Location: X:405 Y:384
+
+2018-10-15 09:56:18.597
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 09:56:19.629
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 09:56:20.655
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 09:56:21.674
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 09:56:22.694
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 09:56:23.718
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 09:56:24.742
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 09:56:25.764
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 09:56:26.785
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 09:56:27.815
+INFORMATION:	Found element: By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big
+
+2018-10-15 09:56:27.837
+ERROR:	The element 'By.CssSelector: .btn.btn-default.btn-brand.btn-brand-big' is still present.
+   at Magenic.Maqs.BaseSeleniumTest.Extensions.Wait.ForAbsentElement(By by)
+   at Magenic.Maqs.BaseSeleniumTest.ElementHandler.ClickButton(ISearchContext searchContext, By by, Boolean waitForButtonToDisappear)
+   at PageModel.LoginToSite.SignIn() in E:\SelfStudies\BookWork\OnlineShopping\PageModel\LoginToSite.cs:line 56
+   at Tests.TestClass.LoginToUserAccount() in E:\SelfStudies\BookWork\OnlineShopping\Tests\TestClass.cs:line 26
+
+2018-10-15 09:56:27.884
+ERROR:	Test failed
+
+2018-10-15 09:56:28.305
+INFORMATION:	Screenshot saved: E:\SelfStudies\BookWork\OnlineShopping\Tests\bin\Debug\Logs\Tests.TestClass.LoginToUserAccount - 2018-10-15-09-56-01-6833.Png

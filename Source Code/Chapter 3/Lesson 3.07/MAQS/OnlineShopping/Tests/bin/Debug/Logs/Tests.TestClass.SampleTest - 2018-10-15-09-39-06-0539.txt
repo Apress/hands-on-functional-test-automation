@@ -1,0 +1,61 @@
+
+2018-10-15 09:39:06.135
+INFORMATION:	Setup test object for Tests.TestClass.SampleTest
+
+2018-10-15 09:39:14.034
+INFORMATION:	Local driver: {
+  "acceptInsecureCerts": false,
+  "acceptSslCerts": false,
+  "applicationCacheEnabled": false,
+  "browserConnectionEnabled": false,
+  "browserName": "chrome",
+  "chrome": {
+    "chromedriverVersion": "2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5)",
+    "userDataDir": "C:\\Users\\PUSHPA~1.HER\\AppData\\Local\\Temp\\scoped_dir27880_17499"
+  },
+  "cssSelectorsEnabled": true,
+  "databaseEnabled": false,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:15855"
+  },
+  "handlesAlerts": true,
+  "hasTouchScreen": false,
+  "javascriptEnabled": true,
+  "locationContextEnabled": true,
+  "mobileEmulationEnabled": false,
+  "nativeEvents": true,
+  "networkConnectionEnabled": false,
+  "pageLoadStrategy": "normal",
+  "platform": "Windows NT",
+  "rotatable": false,
+  "setWindowRect": true,
+  "takesHeapSnapshot": true,
+  "takesScreenshot": true,
+  "unexpectedAlertBehaviour": "",
+  "version": "69.0.3497.100",
+  "webStorageEnabled": true
+}
+
+
+2018-10-15 09:39:14.594
+ERROR:	no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17134 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByLinkText(String linkText)
+   at OpenQA.Selenium.By.<>c__DisplayClass17_0.<LinkText>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at PageModel.HomePage.ClickonLoginLink() in E:\SelfStudies\BookWork\OnlineShopping\PageModel\HomePage.cs:line 54
+   at Tests.TestClass.SampleTest() in E:\SelfStudies\BookWork\OnlineShopping\Tests\TestClass.cs:line 27
+
+
+
+2018-10-15 09:39:14.648
+ERROR:	Test failed
+
+2018-10-15 09:39:15.015
+INFORMATION:	Screenshot saved: E:\SelfStudies\BookWork\OnlineShopping\Tests\bin\Debug\Logs\Tests.TestClass.SampleTest - 2018-10-15-09-39-06-0539.Png
